@@ -54,6 +54,11 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
 .address-item-link {
   color: var(--SLATE, #434455);
   font-size: 16px;
@@ -215,7 +220,7 @@ ul {
   text-transform: uppercase;
 }
 .footer-text {
-  color: var(--CLOUD, F4F4FD);
+  color: var(--CLOUD, #f4f4fd);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
