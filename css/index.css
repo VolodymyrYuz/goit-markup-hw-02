@@ -18,7 +18,7 @@ ul {
   text-decoration: none;
 }
 
-.logo {
+.header-navigation-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -27,8 +27,8 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo:hover,
-.logo:focus {
+.header-navigation-logo:hover,
+.header-navigation-logo:focus {
   color: #404bbf;
 }
 
