@@ -17,29 +17,18 @@ ul {
 .link {
   text-decoration: none;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  overflow: hidden;
-}
 
 .logo {
   color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo :hover,
-.logo :focus {
+.logo:hover,
+.logo:focus {
   color: var(--OCEAN, #404bbf);
 }
 
@@ -63,7 +52,6 @@ ul {
 
 .address-item-link {
   color: var(--SLATE, #434455);
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -71,8 +59,8 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.address-item-link :focus,
-.address-item-link :hover {
+.address-item-link:focus,
+.address-item-link:hover {
   color: var(--OCEAN, #404bbf);
 }
 
@@ -208,7 +196,7 @@ ul {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.03x;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -222,8 +210,8 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-. .footer-test {
-  color: var(--CLOUD, #f4f4fd);
+.footer-text {
+  color: var(--CLOUD, F4F4FD);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
