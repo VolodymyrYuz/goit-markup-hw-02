@@ -19,7 +19,7 @@ ul {
 }
 
 .logo {
-  color: var(--IRIS, #4d5ae5);
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -29,11 +29,11 @@ ul {
 }
 .logo:hover,
 .logo:focus {
-  color: var(--OCEAN, #404bbf);
+  color: #404bbf;
 }
 
 .logo-web {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #2e2f42;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -42,8 +42,12 @@ ul {
   text-transform: uppercase;
 }
 
+.header-address {
+  font-style: normal;
+}
+
 .header-menu-link {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -87,8 +91,8 @@ ul {
   font-family: "Roboto", sans-serif;
 }
 
-.hero-button-order :focus,
-.hero-button-order :hover {
+.hero-button-order:focus,
+.hero-button-order:hover {
   background-color: #404bbf;
 }
 
