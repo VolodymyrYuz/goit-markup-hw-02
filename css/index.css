@@ -85,7 +85,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.hero-button-order {
+.hero-button-os {
   color: var(--WHITE, #fff);
   font-size: 16px;
   font-weight: 500;
@@ -96,8 +96,8 @@ ul {
   font-family: "Roboto", sans-serif;
 }
 
-.hero-button-order:focus,
-.hero-button-order:hover {
+.hero-button-os:focus,
+.hero-button-os:hover {
   background-color: #404bbf;
 }
 
@@ -128,14 +128,6 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}
-
-.team-list-item {
-  background: var(--WHITE, #fff);
-}
-
-.team-list-img {
-  background: var(--WHITE, #fff);
 }
 
 .team-list-title {
